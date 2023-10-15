@@ -17,9 +17,9 @@ rm -rf testenv
 $PYEXE -m venv --clear testenv
 source testenv/$ACDIR/activate
 
-$PYEXE -m pip install "pydantic==1.*"
+$PYEXE -m pip install pydantic
 $PYEXE -m pip install pytest
-$PYEXE -m pip install $MYPATH/$ROSETTARUNTIMEDIR/rosetta_runtime-1.0.0-py3-none-any.whl 
+$PYEXE -m pip install $MYPATH/$ROSETTARUNTIMEDIR/rosetta_runtime-2.0.0-py3-none-any.whl 
 $PYEXE -m pip install $MYPATH/$PYTHONCDMDIR/python_cdm-0.0.0-py3-none-any.whl
 pytest
 rm -rf testenv tests/__pycache__ .pytest_cache __pycache__ tests/semantics/__pycache__ tests/serialization/__pycache__ tests/src/com/rosetta/test/model/__pycache__
