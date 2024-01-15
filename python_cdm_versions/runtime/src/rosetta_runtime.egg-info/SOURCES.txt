@@ -1,0 +1,9 @@
+pyproject.toml
+src/rosetta/runtime/__init__.py
+src/rosetta/runtime/utils.py
+src/rosetta/runtime/version.py
+src/rosetta_runtime.egg-info/PKG-INFO
+src/rosetta_runtime.egg-info/SOURCES.txt
+src/rosetta_runtime.egg-info/dependency_links.txt
+src/rosetta_runtime.egg-info/requires.txt
+src/rosetta_runtime.egg-info/top_level.txt
